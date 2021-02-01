@@ -54,9 +54,9 @@ def isPalindromebySlicing(s :str) -> bool:
     return s == s[::-1]
 
 
-input_str = str(input())
+# input_str = str(input())
 
-# input_str = "a man a plan a canal : Panama"
+input_str = "a man a plan a canal : Panama"
 print(isPalindromebySlicing(input_str))
 
 
